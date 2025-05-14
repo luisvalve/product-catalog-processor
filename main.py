@@ -8,6 +8,7 @@ from rich.console import Console
 from rich.table import Table
 from yaspin import yaspin
 from pathlib import Path
+import re
 
 class ProductProcessor:
     def __init__(self):
@@ -15,11 +16,20 @@ class ProductProcessor:
         self.input_file = Path("data/input.csv")
         self.output_file = Path("data/output.csv")
 
+    def clean_alphanumeric_codes(self, text: str) -> str:
+        """Remove alphanumeric codes in parentheses."""
+        if not isinstance(text, str):
+            return text
+        # Pattern matches parentheses containing alphanumeric characters
+        return re.sub(r'\([A-Za-z0-9]+\)', '', text).strip()
+
     def process_bullets(self, bullets_str: str) -> list:
         """Split bullet points into a list."""
         if not isinstance(bullets_str, str) or not bullets_str.strip():
             return []
-        return [b.strip() for b in bullets_str.split("|")]
+        # Clean each bullet point and split
+        bullets = [b.strip() for b in bullets_str.split("|")]
+        return [self.clean_alphanumeric_codes(b) for b in bullets]
 
     def process_data(self) -> pd.DataFrame:
         """Process the product catalog data."""
@@ -42,7 +52,7 @@ class ProductProcessor:
         
         # Clean titles
         if "Title" in df.columns:
-            df["Title"] = df["Title"].str.strip()
+            df["Title"] = df["Title"].str.strip().apply(self.clean_alphanumeric_codes)
         
         return df
 
