@@ -216,3 +216,39 @@
 [2025-05-14 21:26:23] Saved final output to file_001_updated.csv
 [2025-05-14 21:26:23] Finished.
 
+[2025-05-14 21:31:26] Started processing job.
+[2025-05-14 21:31:26] Loaded file_001.csv successfully.
+[2025-05-14 21:31:30] Loaded file_002.xlsx.
+[2025-05-14 21:31:30] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:31:30] Merged product info.
+[2025-05-14 21:31:30] Split Bullets into bullet columns.
+[2025-05-14 21:31:30] Moved URL to last column.
+[2025-05-14 21:31:30] Saved final output to file_001_updated.csv
+[2025-05-14 21:31:30] Finished.
+
+[2025-05-14 21:33:30] Started processing job.
+[2025-05-14 21:33:30] Loaded file_001.csv successfully.
+[2025-05-14 21:33:34] Loaded file_002.xlsx.
+[2025-05-14 21:33:34] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:33:34] Merged product info.
+[2025-05-14 21:33:34] ❌ Error: unbalanced parenthesis at position 36
+[2025-05-14 21:34:03] Started processing job.
+[2025-05-14 21:34:03] Loaded file_001.csv successfully.
+[2025-05-14 21:34:07] Loaded file_002.xlsx.
+[2025-05-14 21:34:07] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:34:07] Merged product info.
+[2025-05-14 21:34:07] Split Bullets into bullet columns.
+[2025-05-14 21:34:07] Moved URL to last column.
+[2025-05-14 21:34:07] Saved final output to file_001_updated.csv
+[2025-05-14 21:34:07] Finished.
+
+[2025-05-14 21:36:56] Started processing job.
+[2025-05-14 21:36:56] Loaded file_001.csv successfully.
+[2025-05-14 21:37:00] Loaded file_002.xlsx.
+[2025-05-14 21:37:00] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:37:00] Merged product info.
+[2025-05-14 21:37:00] Split Bullets into bullet columns.
+[2025-05-14 21:37:00] Moved URL to last column.
+[2025-05-14 21:37:00] Saved final output to file_001_updated.csv
+[2025-05-14 21:37:00] Finished.
+

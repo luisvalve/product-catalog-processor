@@ -45,4 +45,31 @@ def remove_out_of_range_numeric_parens(text: str) -> str:
             return ''
         return match.group(0)
     # Remove (number) and any following space if out of range
-    return re.sub(r'\((\d+)\)\s*', repl, text) 
+    return re.sub(r'\((\d+)\)\s*', repl, text)
+
+def reformat_single_year_entries(text: str) -> str:
+    if not isinstance(text, str):
+        return text
+    # Match (year) ModelName and convert to ModelName (year)
+    # Only match 4-digit years between 1950 and 2026
+    def repl(match):
+        year = match.group(1)
+        model = match.group(2).strip()
+        return f"{model} ({year})"
+    # Replace all occurrences and add commas between entries
+    text = re.sub(r'\((19[5-9][0-9]|20[0-2][0-9]|2026)\)\s*([^,\(\)]+)', repl, text)
+    # Remove extra spaces and ensure comma separation
+    text = re.sub(r'\)\s+(?=[A-Za-z])', '), ', text)
+    return text
+
+def format_single_year_entries_with_commas(text: str) -> str:
+    if not isinstance(text, str):
+        return text
+    # Insert a comma and space between consecutive single-year entries (e.g., ... (2006)BMW ... -> ... (2006), BMW ...)
+    # Only match if the next entry starts with a capital letter (model name)
+    return re.sub(r'(\((19[5-9][0-9]|20[0-2][0-9]|2026)\))(?=[A-Z])', r'\1, ', text)
+
+def sanitize_double_spaces(text: str) -> str:
+    if not isinstance(text, str):
+        return text
+    return re.sub(r'\s{2,}', ' ', text) 

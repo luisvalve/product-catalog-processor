@@ -8,7 +8,10 @@ from processors.description_normalizer import (
     normalize_model_year_blocks,
     remove_trailing_star,
     remove_alphanumeric_codes,
-    remove_out_of_range_numeric_parens
+    remove_out_of_range_numeric_parens,
+    reformat_single_year_entries,
+    format_single_year_entries_with_commas,
+    sanitize_double_spaces
 )
 from config.settings import MERGED_DESC_COLUMN
 from io_utils.file_loader import load_brand_mappings
@@ -22,6 +25,9 @@ def enrich_product_data(df: pd.DataFrame, brand_mappings: dict) -> pd.DataFrame:
     df[MERGED_DESC_COLUMN] = df[MERGED_DESC_COLUMN].apply(remove_trailing_star)
     df[MERGED_DESC_COLUMN] = df[MERGED_DESC_COLUMN].apply(remove_alphanumeric_codes)
     df[MERGED_DESC_COLUMN] = df[MERGED_DESC_COLUMN].apply(remove_out_of_range_numeric_parens)
+    df[MERGED_DESC_COLUMN] = df[MERGED_DESC_COLUMN].apply(reformat_single_year_entries)
+    df[MERGED_DESC_COLUMN] = df[MERGED_DESC_COLUMN].apply(format_single_year_entries_with_commas)
+    df[MERGED_DESC_COLUMN] = df[MERGED_DESC_COLUMN].apply(sanitize_double_spaces)
 
     def enrich_title(row):
         title = row["Title"]
