@@ -1,0 +1,218 @@
+[2025-05-14 20:22:14] Started processing job.
+[2025-05-14 20:22:14] Loaded file_001.csv successfully.
+[2025-05-14 20:22:18] Loaded file_002.xlsx.
+[2025-05-14 20:22:18] Merged product info.
+[2025-05-14 20:22:18] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:22:18] Split Bullets into 5 bullet columns.
+[2025-05-14 20:22:18] Removed column [0] from merged output.
+[2025-05-14 20:22:18] Moved URL to last column.
+[2025-05-14 20:22:18] Saved final output to file_001_updated.csv
+[2025-05-14 20:22:18] Finished.
+
+[2025-05-14 20:23:57] Started processing job.
+[2025-05-14 20:23:57] Loaded file_001.csv successfully.
+[2025-05-14 20:24:01] Loaded file_002.xlsx.
+[2025-05-14 20:24:01] Merged product info.
+[2025-05-14 20:24:01] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:24:01] Split Bullets into 5 bullet columns.
+[2025-05-14 20:24:01] Removed column [0] from merged output.
+[2025-05-14 20:24:01] Moved URL to last column.
+[2025-05-14 20:24:01] Saved final output to file_001_updated.csv
+[2025-05-14 20:24:01] Finished.
+
+[2025-05-14 20:31:18] Started processing job.
+[2025-05-14 20:31:18] Loaded product data successfully.
+[2025-05-14 20:31:22] Loaded vehicle data successfully.
+[2025-05-14 20:31:22] Unmatched products: 0
+[2025-05-14 20:31:22] Merged product info successfully.
+[2025-05-14 20:31:22] Enriched product data with brand information.
+[2025-05-14 20:31:22] Split Bullets into 5 columns.
+[2025-05-14 20:31:22] Saved final output to /Users/luisvalve/Sites/product_merge_project/data/file_001_updated.csv
+[2025-05-14 20:31:22] Finished successfully.
+[2025-05-14 20:34:54] Started processing job.
+[2025-05-14 20:34:54] Loaded product data successfully.
+[2025-05-14 20:34:58] Loaded vehicle data successfully.
+[2025-05-14 20:34:58] Unmatched products: 0
+[2025-05-14 20:34:58] Merged product info successfully.
+[2025-05-14 20:34:58] Enriched product data with brand information.
+[2025-05-14 20:34:58] Split Bullets into 5 columns.
+[2025-05-14 20:34:58] Saved final output to /Users/luisvalve/Sites/product_merge_project/data/file_001_updated.csv
+[2025-05-14 20:34:58] Finished successfully.
+[2025-05-14 20:35:41] Started processing job.
+[2025-05-14 20:35:41] Loaded product data successfully.
+[2025-05-14 20:35:45] Loaded vehicle data successfully.
+[2025-05-14 20:35:45] Unmatched products: 0
+[2025-05-14 20:35:45] Merged product info successfully.
+[2025-05-14 20:35:45] Enriched product data with brand information.
+[2025-05-14 20:35:45] Split Bullets into 5 columns.
+[2025-05-14 20:35:45] Saved final output to /Users/luisvalve/Sites/product_merge_project/data/file_001_updated.csv
+[2025-05-14 20:35:45] Finished successfully.
+[2025-05-14 20:36:25] Started processing job.
+[2025-05-14 20:36:25] Loaded product data successfully.
+[2025-05-14 20:36:30] Loaded vehicle data successfully.
+[2025-05-14 20:36:30] Unmatched products: 0
+[2025-05-14 20:36:30] Merged product info successfully.
+[2025-05-14 20:36:30] Enriched product data with brand information.
+[2025-05-14 20:36:30] Split Bullets into 5 columns.
+[2025-05-14 20:36:30] Saved final output to /Users/luisvalve/Sites/product_merge_project/data/file_001_updated.csv
+[2025-05-14 20:36:30] Finished successfully.
+[2025-05-14 20:37:32] Started processing job.
+[2025-05-14 20:37:32] Loaded product data successfully.
+[2025-05-14 20:37:36] Loaded vehicle data successfully.
+[2025-05-14 20:37:36] Unmatched products: 0
+[2025-05-14 20:37:36] Merged product info successfully.
+[2025-05-14 20:37:36] Enriched product data with brand information.
+[2025-05-14 20:37:36] Split Bullets into 5 columns.
+[2025-05-14 20:37:36] Saved final output to /Users/luisvalve/Sites/product_merge_project/data/file_001_updated.csv
+[2025-05-14 20:37:36] Finished successfully.
+[2025-05-14 20:40:33] Started processing job.
+[2025-05-14 20:40:33] Loaded product data successfully.
+[2025-05-14 20:40:37] Loaded vehicle data successfully.
+[2025-05-14 20:40:37] Unmatched products: 0
+[2025-05-14 20:40:37] Merged product info successfully.
+[2025-05-14 20:40:37] Enriched product data with brand information.
+[2025-05-14 20:40:37] Split Bullets into 5 columns.
+[2025-05-14 20:40:37] Saved final output to /Users/luisvalve/Sites/product_merge_project/data/file_001_updated.csv
+[2025-05-14 20:40:37] Finished successfully.
+[2025-05-14 20:41:40] Started processing job.
+[2025-05-14 20:41:40] Loaded file_001.csv successfully.
+[2025-05-14 20:41:44] Loaded file_002.xlsx.
+[2025-05-14 20:41:44] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:41:44] Merged product info.
+[2025-05-14 20:41:44] Split Bullets into bullet columns.
+[2025-05-14 20:41:44] Moved URL to last column.
+[2025-05-14 20:41:44] Saved final output to file_001_updated.csv
+[2025-05-14 20:41:45] Finished.
+
+[2025-05-14 20:43:51] Started processing job.
+[2025-05-14 20:43:51] Loaded file_001.csv successfully.
+[2025-05-14 20:43:54] Loaded file_002.xlsx.
+[2025-05-14 20:43:54] Merged product info.
+[2025-05-14 20:43:54] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:43:54] Split Bullets into 5 bullet columns.
+[2025-05-14 20:43:54] Removed column [0] from merged output.
+[2025-05-14 20:43:54] Moved URL to last column.
+[2025-05-14 20:43:54] Saved final output to file_001_updated.csv
+[2025-05-14 20:43:54] Finished.
+
+[2025-05-14 20:48:02] Started processing job.
+[2025-05-14 20:48:02] Loaded file_001.csv successfully.
+[2025-05-14 20:48:05] Loaded file_002.xlsx.
+[2025-05-14 20:48:05] Merged product info.
+[2025-05-14 20:48:05] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:48:05] Split Bullets into 5 bullet columns.
+[2025-05-14 20:48:05] Removed column [0] from merged output.
+[2025-05-14 20:48:05] Moved URL to last column.
+[2025-05-14 20:48:05] Saved final output to file_001_updated.csv
+[2025-05-14 20:48:05] Finished.
+
+[2025-05-14 20:48:38] Started processing job.
+[2025-05-14 20:48:38] Loaded file_001.csv successfully.
+[2025-05-14 20:48:42] Loaded file_002.xlsx.
+[2025-05-14 20:48:42] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:48:42] Merged product info.
+[2025-05-14 20:48:42] Split Bullets into bullet columns.
+[2025-05-14 20:48:42] Moved URL to last column.
+[2025-05-14 20:48:42] Saved final output to file_001_updated.csv
+[2025-05-14 20:48:42] Finished.
+
+[2025-05-14 20:50:08] Started processing job.
+[2025-05-14 20:50:08] Loaded file_001.csv successfully.
+[2025-05-14 20:50:12] Loaded file_002.xlsx.
+[2025-05-14 20:50:12] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:50:12] Merged product info.
+[2025-05-14 20:50:12] Split Bullets into bullet columns.
+[2025-05-14 20:50:12] Moved URL to last column.
+[2025-05-14 20:50:12] Saved final output to file_001_updated.csv
+[2025-05-14 20:50:12] Finished.
+
+[2025-05-14 20:50:57] Started processing job.
+[2025-05-14 20:50:57] Loaded file_001.csv successfully.
+[2025-05-14 20:51:01] Loaded file_002.xlsx.
+[2025-05-14 20:51:01] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:51:01] Merged product info.
+[2025-05-14 20:51:02] Split Bullets into bullet columns.
+[2025-05-14 20:51:02] Moved URL to last column.
+[2025-05-14 20:51:02] Saved final output to file_001_updated.csv
+[2025-05-14 20:51:02] Finished.
+
+[2025-05-14 20:52:21] Started processing job.
+[2025-05-14 20:52:21] Loaded file_001.csv successfully.
+[2025-05-14 20:52:25] Loaded file_002.xlsx.
+[2025-05-14 20:52:25] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:52:25] Merged product info.
+[2025-05-14 20:52:25] Split Bullets into bullet columns.
+[2025-05-14 20:52:25] Moved URL to last column.
+[2025-05-14 20:52:25] Saved final output to file_001_updated.csv
+[2025-05-14 20:52:25] Finished.
+
+[2025-05-14 20:54:24] Started processing job.
+[2025-05-14 20:54:24] Loaded file_001.csv successfully.
+[2025-05-14 20:54:29] Loaded file_002.xlsx.
+[2025-05-14 20:54:29] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:54:29] Merged product info.
+[2025-05-14 20:54:29] Split Bullets into bullet columns.
+[2025-05-14 20:54:29] Moved URL to last column.
+[2025-05-14 20:54:29] Saved final output to file_001_updated.csv
+[2025-05-14 20:54:29] Finished.
+
+[2025-05-14 20:56:53] Started processing job.
+[2025-05-14 20:56:53] Loaded file_001.csv successfully.
+[2025-05-14 20:56:58] Loaded file_002.xlsx.
+[2025-05-14 20:56:58] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 20:56:58] Merged product info.
+[2025-05-14 20:56:58] Split Bullets into bullet columns.
+[2025-05-14 20:56:58] Moved URL to last column.
+[2025-05-14 20:56:58] Saved final output to file_001_updated.csv
+[2025-05-14 20:56:58] Finished.
+
+[2025-05-14 21:00:41] Started processing job.
+[2025-05-14 21:00:41] Loaded file_001.csv successfully.
+[2025-05-14 21:00:45] Loaded file_002.xlsx.
+[2025-05-14 21:00:45] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:00:45] Merged product info.
+[2025-05-14 21:00:45] Split Bullets into bullet columns.
+[2025-05-14 21:00:45] Moved URL to last column.
+[2025-05-14 21:00:45] Saved final output to file_001_updated.csv
+[2025-05-14 21:00:45] Finished.
+
+[2025-05-14 21:04:02] Started processing job.
+[2025-05-14 21:04:02] Loaded file_001.csv successfully.
+[2025-05-14 21:04:06] Loaded file_002.xlsx.
+[2025-05-14 21:04:06] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:04:06] Merged product info.
+[2025-05-14 21:04:06] Split Bullets into bullet columns.
+[2025-05-14 21:04:06] Moved URL to last column.
+[2025-05-14 21:04:06] Saved final output to file_001_updated.csv
+[2025-05-14 21:04:06] Finished.
+
+[2025-05-14 21:13:22] Started processing job.
+[2025-05-14 21:13:22] Loaded file_001.csv successfully.
+[2025-05-14 21:13:26] Loaded file_002.xlsx.
+[2025-05-14 21:13:26] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:13:26] Merged product info.
+[2025-05-14 21:13:26] Split Bullets into bullet columns.
+[2025-05-14 21:13:26] Moved URL to last column.
+[2025-05-14 21:13:26] Saved final output to file_001_updated.csv
+[2025-05-14 21:13:26] Finished.
+
+[2025-05-14 21:25:02] Started processing job.
+[2025-05-14 21:25:02] Loaded file_001.csv successfully.
+[2025-05-14 21:25:06] Loaded file_002.xlsx.
+[2025-05-14 21:25:06] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:25:06] Merged product info.
+[2025-05-14 21:25:06] Split Bullets into bullet columns.
+[2025-05-14 21:25:06] Moved URL to last column.
+[2025-05-14 21:25:06] Saved final output to file_001_updated.csv
+[2025-05-14 21:25:06] Finished.
+
+[2025-05-14 21:26:19] Started processing job.
+[2025-05-14 21:26:19] Loaded file_001.csv successfully.
+[2025-05-14 21:26:23] Loaded file_002.xlsx.
+[2025-05-14 21:26:23] ⚠️ Unmatched products from file_001.csv: 0
+[2025-05-14 21:26:23] Merged product info.
+[2025-05-14 21:26:23] Split Bullets into bullet columns.
+[2025-05-14 21:26:23] Moved URL to last column.
+[2025-05-14 21:26:23] Saved final output to file_001_updated.csv
+[2025-05-14 21:26:23] Finished.
+
